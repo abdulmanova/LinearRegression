@@ -1,5 +1,5 @@
 # LinearRegression
-The main machine learning’s approach is identifying relationships
+<p> The main machine learning’s approach is identifying relationships
 between attributes and targets. The simplest functional relationship that can be
 found is linear regression. To define parameters of a function squared or
 absolute loss functions are used. Both of these concepts are widely used and the
@@ -16,8 +16,8 @@ validation set. Then compute the average loss. Regularization prevents
 over-complexity of a model by means of minimizing the regularized loss.
 Regularized loss is a sum of squared loss and squared parameter with a
 coefficient. Squared parameter represents complexity of a model and coefficient
-penalizes over-complexity.
-In my opinion linear regression is a powerful tool. A lot of problems do
+penalizes over-complexity.</p>
+<p> In my opinion linear regression is a powerful tool. A lot of problems do
 not imply too complex solutions. For example, a cost for a product depends on
 the materials that were used in production, how long it took to produce, how far
 the product was transferred etc. So the final cost can be computed as those
@@ -32,4 +32,4 @@ with the hyperparameters we found. Speaking of regularization, it penalizes a
 model for a sum of a loss and model complexity (which is expressed in the
 greatest degree of a polynomial). So if a loss is big and a model’s complexity is
 low, this implies under-fitting and vice versa. If loss is small and a model is too
-complex, it identifies over-fitting.
+complex, it identifies over-fitting.</p>
